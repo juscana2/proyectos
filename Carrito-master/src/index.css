@@ -1,0 +1,14 @@
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.ui.card>.image{
+  width: 380px;
+  height: 250px;
+
+
+}
