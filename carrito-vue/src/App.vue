@@ -1,14 +1,22 @@
 <template>
   <div class="container">
-  <h1>Carrito Dulce</h1>
-  {{productos}}
-   <hr>
+    <br>
+  
+  <h1 class="p-3 mb-2 color-indianred text-white">Almibares...</h1>
+ 
+ <!-- {{productos}}-->
+  <!--<pre>
+  {{carrito}}
+  </pre>-->
+   
+    <!--llamar al componente Carrito-->
+
+   <Carrito />
   <div class="row">
-  <!--llamar al componente card-->
+  <!--llamar al componente card y crear el ciclo for para replicar-->
   <Card
   v-for="producto of productos" :key="producto.id"
   :producto="producto"
- 
   />
 
     </div>
@@ -19,15 +27,15 @@
 <script>
 import{useStore} from 'vuex'
 import { computed, onMounted } from 'vue'
-//impoer card desde
+//impor card ,Carrito desde
 import Card from './components/Card'
-
-
+import Carrito from './components/Carrito'
 
 export default {
   name: 'App',
   components: {
-    Card
+    //add componente
+    Card, Carrito
     },
     setup(){
       const store =useStore()
@@ -38,13 +46,18 @@ export default {
       })
 // sereciben todos los date del json
       const productos = computed(()=> store.state.productos)
+     // const carrito = computed (() => store.state.carrito)
+      //return{productos , carrito}
       return{productos}
 
 
     }
 }
-//union de los componentes
+
 </script>
+<style>
+@import '/assets/vue.css';
+</style>
 
 
 
