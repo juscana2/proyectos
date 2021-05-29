@@ -2,12 +2,13 @@
   <div class="container">
     <br>
   
-  <h1 class="p-3 mb-2 color-indianred text-white">Almibares...</h1>
+  <h1 class="p-3 mb-2 color-indianred text-white"><img  id="logo" src="/image/carro.png" alt="Carro"> Almibares... </h1>
  
  <!-- {{productos}}-->
   <!--<pre>
   {{carrito}}
   </pre>-->
+  
    
     <!--llamar al componente Carrito-->
 

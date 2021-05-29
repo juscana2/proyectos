@@ -8,7 +8,7 @@
       />
       <div class="card-body">
         <h5 class="card-title">{{ producto.title }}</h5>
-        <p class="card-text"><span>{{ producto.precio }}</span>€</p>
+        <p class="card-text"><span>{{ producto.precio }}</span> €</p>
         <button class="btn btn-outline-danger" @click="agregar(producto)">Comprar</button>
       </div>
     </div>

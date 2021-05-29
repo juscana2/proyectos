@@ -18,32 +18,36 @@ export default createStore({
 
     },
     // vaciar el carrito button
-    vaciarCarrito(state){
+    vaciarCarrito(state) {
       state.carrito = {}
     },
     //  button incrementar objet play
-    aumentar(state, payload){
+    aumentar(state, payload) {
       state.carrito[payload].cantidad = state.carrito[payload].cantidad + 1
 
     },
-     //  button incrementar objet play
-     disminuir(state, payload){
+    //  button incrementar objet play
+    disminuir(state, payload) {
       state.carrito[payload].cantidad = state.carrito[payload].cantidad - 1
-      if(state.carrito[payload].cantidad == 0){
+      if (state.carrito[payload].cantidad == 0) {
         delete state.carrito[payload]
       }
     },
-     /*// button eliminar objet play error
-  eliminar(state, payload){
-    state.carrito[payload].cantidad = state.carrito[payload].cantidad = 0
-    delete state.carrito[payload]
+    /*// button eliminar objet
+ eliminar(state, payload){
+   state.carrito[payload].cantidad = state.carrito[payload].cantidad = 0
+   delete state.carrito[payload]
 },*/
+    //agregar imagen a la compra 1 funciona
+
+    itemsImagen() {
+      return this.productos.map(producto => {
+        return Object.assign(producto, { picture: JSON.parse(producto.picture) })
+      })
+    },
+
 
   },
- 
-  
-
-
 
   actions: {
     //llamr al servidor al json
@@ -68,17 +72,19 @@ export default createStore({
 
     }
   },
+
+
   // total de producto y precio
-  getters:{
-    totalCantidad(state){
-      return Object.values(state.carrito).reduce((acc,{cantidad}) => acc + cantidad, 0)
+  getters: {
+    totalCantidad(state) {
+      return Object.values(state.carrito).reduce((acc, { cantidad }) => acc + cantidad, 0)
     },
-      // total precio
-      totalPrecio(state){
-        return Object.values(state.carrito).reduce((acc,{cantidad,precio}) => acc + cantidad * precio,0)
-      }
+    // total precio
+    totalPrecio(state) {
+      return parseFloat(Object.values(state.carrito).reduce((acc, { cantidad, precio }) => acc + cantidad * precio, 0)).toFixed(2)
+    }
   },
- 
+
 
   modules: {
   }

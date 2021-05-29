@@ -15,16 +15,36 @@
 </head>
 
 <body>
+
   <noscript>
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
   </noscript>
-  <div id="app"></div>
+  <div id="app">
+
+ </div>
+
   <style>
     * {
 
       font-family: "Latin Modern Roman 10";
       font-style: italic;
+    }
+
+    #logo {
+      float: none;
+      width: 50px;
+      height: 50px;
+    }
+
+    #logo2 {
+      float: none;
+      width: 50px;
+      height: 50px;
+    }
+
+    #registro {
+      float: right;
     }
 
     .card img {
@@ -34,6 +54,14 @@
 
     }
 
+    .imgcarrito {
+      border-radius: 50%;
+      /* border-radius: 8px;*/
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+
     .container {
       margin-top: 25px;
       background-color: #faf7f4ec;
@@ -41,6 +69,10 @@
 
     h1 {
       background-color: indianred;
+    }
+
+    h2 {
+      color: indianred;
     }
 
     .card-body {
@@ -61,6 +93,15 @@
     tr {
 
       color: indianred;
+
+    }
+
+    #registro {
+      align-content: flex-end;
+      justify-content: flex-end;
+      background-color: indianred;
+
+
 
     }
   </style>

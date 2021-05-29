@@ -6,7 +6,7 @@
                 vaciar todo
             </button>
         </td>
-        <td class="font-weight-bold"><span>{{totalPrecio}}</span>€</td>
+        <td class="font-weight-bold"><span>{{totalPrecio}}</span> €</td>
   
 </template>
 

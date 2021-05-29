@@ -1,109 +1,109 @@
 [
     {
-      "precio": 500,
+      "precio": 300,
       "id": 1,
       "title": "T-blanc.Tarta de fondat de vainilla con corazones de fresas",
       "picture": "Image/tar1.jpg"
      
     },
     {
-      "precio": 300,
+      "precio": 400,
       "id": 2,
       "title": "T-glas.Tarta de fondat de vainilla con rosas de frambuesas",
       "picture": "Image/navi2.jpg"
     },
     {
-      "precio": 100,
+      "precio": 500,
       "id": 3,
       "title": "T-ros.Tarta de fondat de vainilla con corazones de fresas",
       "picture": "Image/tart2.JPG"
     },
     {
-      "precio": 50,
+      "precio": 200,
       "id": 4,
       "title": "T-nar.Tarta de bizcocho de chocolate turquesa y fucsia",
       "picture": "Image/nara4.jpg"
     },
     {
-      "precio": 10,
+      "precio": 3,
       "id": 5,
       "title": "C-azul.Cupcake de nube, chocolate blanco corazon frambuesa",
       "picture": "Image/capt5.jpg"
     },
     {
-      "precio": 500,
+      "precio": 4,
       "id": 6,
       "title": "C-per.Cupcake de nata y fresa con perlas,lazos y corazon de rosas",
       "picture": "Image/nati6.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3.5,
       "id": 7,
       "title": "C-man.Cupcake de mango y macadenia",
       "picture": "Image/cep7.jpg"
     },
     {
-      "precio": 150,
+      "precio": 2.5,
       "id": 8,
       "title": "C-car.Cupcake de caramelo y nuéz",
       "picture": "Image/cip8.jpg"
     },
     {
-      "precio": 150,
+      "precio": 30,
       "id": 9,
       "title": "Surtido Arabe.Almendra",
       "picture": "Image/marro.jpg"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 10,
       "title": "Flor.Galleta de Chocolate,anìs",
       "picture": "Image/ro.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 11,
       "title": "Arcoiris.Galleta de vainilla,multi sabor",
       "picture": "Image/ve.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 12,
       "title": "G&F.Galleta de vainilla,multi sabor",
       "picture": "Image/galle12.jpg"
     },
     {
-      "precio": 150,
+      "precio": 80,
       "id": 13,
       "title": "T-flor.Pastel de flores,con flor de seda",
       "picture": "Image/tar13.jpg"
     },
     {
-      "precio": 150,
+      "precio": 80,
       "id": 14,
       "title": "T-flor.Pastel de flores,con flor de vainilla",
       "picture":"Image/tar14.jpg"
     },
     {
-      "precio": 150,
+      "precio": 80,
       "id": 15,
       "title": "T-ferrero,con pan de oro vainilla y chocolate",
       "picture": "Image/tar15.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 16,
       "title": "Ova.Galleta de vainilla, chocolate y lila",
       "picture": "Image/galle16.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 17,
       "title": "F & L.Galleta de vainilla, nata y caramelo",
       "picture": "Image/galle17.jpg"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 18,
       "title": "Formas.Galleta de vainilla y mil sabores",
       "picture": "Image/galle18.jpg"
